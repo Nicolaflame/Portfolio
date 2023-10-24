@@ -1,0 +1,179 @@
+/* Navigation bar */
+nav {
+  margin: 0;
+}
+.navbar {
+  background: #0077b6;
+  position: Absolute;
+  z-index: 20;
+  right: 0;
+  left: 0;
+  transition: all 0.3s;
+  padding-top: 0px;
+  padding-bottom: 0;
+  margin-bottom: 50px;
+  display: inline-block;
+}
+.nav-item {
+}
+.container {
+  margin: 0;
+}
+/* Body Content */
+body {
+  font-family: "Press Start 2P", sans-serif;
+  color: #f7accf;
+  margin: 0;
+  padding-top: 0px;
+
+  background-color: #caf0f8;
+}
+main {
+  padding-top: 20px;
+  border: 1px solid #f7accf;
+  padding-top: 20px;
+}
+.hero {
+  display: grid;
+  grid-template-columns: 65% 30%;
+  margin: 6rem;
+
+  background-color: beige;
+  padding: 2rem;
+}
+.tagline {
+  padding: 1rem;
+}
+.profile-pic {
+  justify-content: center;
+  border: 5px solid #0077b6;
+  width: 250px;
+  border-radius: 50%;
+}
+.phil-container {
+  display: grid;
+  grid-template-columns: 25% 70%;
+}
+.phil-title {
+  margin: 3rem;
+  justify-content: center;
+  float: unset;
+}
+.phil {
+  /* border: 1px solid black; */
+  padding: 20px;
+  margin: 3rem;
+}
+.tech {
+  background-color: beige;
+  margin: 3rem;
+  justify-content: space-between;
+}
+
+.tech-img {
+  width: 100px;
+  justify-content: center;
+}
+
+.comps {
+  background-color: beige;
+  margin: 3rem;
+}
+.comps-title {
+  text-align: center;
+  padding: 4px;
+  background-color: aliceblue;
+}
+
+.projects {
+  margin: 3rem;
+  display: grid;
+  grid-template-columns: 45% 45%;
+
+  border-color: black;
+  border: 1px black;
+  padding: 50px;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+.project-img {
+  justify-content: center;
+  border: 2px solid #f7accf;
+  width: 300px;
+  height: 250px;
+}
+.proj-title {
+  text-align: center;
+  padding: 4px;
+  /* background-color: aliceblue; */
+}
+.project-box {
+  border: 3px solid #f7accf;
+  justify-content: center;
+  margin: 10px;
+
+  padding: 25px;
+}
+.proj-btns {
+  justify-content: center;
+}
+.project-button {
+  border: 3px solid #f7accf;
+  justify-content: center;
+  width: 150px;
+  height: 25px;
+  background-color: #0077b6;
+  color: #f7accf;
+  font-family: "Press Start 2P", sans-serif;
+  padding: 4px;
+}
+
+.wid-section {
+  margin: 3rem;
+  background-color: aliceblue;
+  padding: 2rem;
+}
+.wid-title {
+  text-align: center;
+  padding: 4px;
+  /* background-color: aliceblue; */
+}
+.wid {
+  margin: 25px;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: space-between;
+  padding: 10px;
+  word-wrap: break-word;
+}
+.wid-item {
+  text-align: center;
+  border-radius: 1rem;
+  justify-content: center;
+  border: 4px solid #f7accf;
+  border-width: 3px;
+  padding: 1rem;
+}
+.round-edges {
+  border-radius: 1rem;
+}
+.tech-title {
+  text-align: center;
+  padding: 4px;
+  background-color: aliceblue;
+}
+.contact-box {
+  display: grid;
+  grid-template-columns: 65% 25%;
+}
+.form-box {
+  margin: 3rem;
+  border: 1px solid black;
+  padding: 20px;
+  justify-content: center;
+  vertical-align: ;
+}
+.footer {
+  background-color: #0077b6;
+  padding: 3rem;
+}
